@@ -1,0 +1,53 @@
+<DOCTYPE! html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="styles.css">
+      <title>FIRST SURVEY FORM</title>
+    </head>
+    <body>
+      <h1 id="title">First Survey Form</h1>
+      <p id="description">Tell us what you think about our services</p>
+<form action="https://rerflux.com" mehthod="post" id="survey-form">
+<fieldset>
+<label id="name-label"> Name<input required type="text" id="name" placeholder="Enter your name"></label>
+<label id="email-label"> Email<input required id="email" placeholder="Enter your email" type="email"></label>
+<label id="number-label"> Age (optional)<input id="number" min="13" max="120" placeholder="age" type="number"></label>
+  <label>how can we best describe you?
+  <select id="dropdown">
+    <option value="">(select current role)</option>
+    <option value="1">Employed</option>
+    <option value="2">Unemployed</option>
+    <option value="3">Student</option>
+ 
+  </select>
+  </label>
+  </fieldset>
+  <fieldset>
+  <legend>Would you recommend us to your friends?</legend> 
+  <label for="yes-option">
+    <input type="radio" name="recommendation" id="yes-option" value="yes" class="inline">
+    Yes
+  </label>
+  <label for="no-option">
+    <input type="radio" name="recommendation" id="no-option" value="no" class="inline">
+    No
+  </label>
+  <label for="maybe-option">
+    <input type="radio" name="recommendation" id="maybe-option" value="maybe" class="inline">
+    Maybe
+  </label>      
+</fieldset>
+
+<fieldset>
+  <label>what would you like us to improve on (check all that applies)</label>
+  <label><input type="checkbox" value="1" class="inline"> programming</label>
+  <label><input type="checkbox" value="2" class="inline">UiUx designs</label>
+  <label><input type="checkbox" value="3" class="inline">courses</label>
+  <label><input type="checkbox" value="4" class="inline">timing</label>
+  <label>any comment or sugestion?<textarea placeholder="enter coment here" col="30" rows="5"></textarea></label>
+</fieldset>
+<input id="submit" type="submit">
+</form>
+    </body>
+  </html>

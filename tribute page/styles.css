@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  h1 {
+    padding: 20px;
+    font-family: arial;
+  }
+  
+  h3 {
+    font-size: 20px;
+    background-color: #d2d483;
+    padding: 10;
+    color: black;
+  
+  }
+  
+  body {
+    background-color: black;
+    color: white;
+    font-family: Open Sans;
+    text-align: center;
+  } 
+  
+  .image-container {
+    margin: auto;
+    padding: 30px;
+    background-color: #000000;
+  }
+  
+  .steve-image {
+    object-fit: contain;
+    border-radius: 10px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: #d2d483;
+  }
+  .caption {
+    padding-top: 5px;
+  }
+  
+  .life {
+    text-align: left;
+    padding: 30px 70px;
+    margin: 10px auto;
+    max-width: 600px;
+    background-color: #d2d483;
+    color: black;
+  }
+  .life-header {
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-family: arial;
+  
+  }
+  
+  .bold {
+    font-weight: bold
+  }
+  
+  li {
+    margin: 20px
+  }
+  .quote {
+    margin: 30px;
+    font-style: italic;
+  }
+   
